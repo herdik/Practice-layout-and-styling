@@ -1,0 +1,43 @@
+.container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .part {
+    width: 100%;
+    height: 100%;
+    border: 3px #4e86c9 solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .first {
+    background: none;
+    
+  }
+  
+  .second {
+    
+    background: #c9684e;
+    
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .blue {
+    background: #4e86c9;
+  }
+  
+  .purple {
+    background: purple;
+  }
